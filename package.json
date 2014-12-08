@@ -1,0 +1,27 @@
+{
+  "name": "classgen",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",  
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {},
+  
+    "private": true, 
+    
+   
+    "author": "Yaniv Kessler", 
+  
+  
+  "bugs": {
+    "url": "https://github.com/kessler/classgen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kessler/classgen"
+  },
+  "homepage": "https://github.com/kessler/classgen",
+    
+  "license": "MIT"
+}
