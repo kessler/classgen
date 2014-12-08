@@ -1,5 +1,5 @@
 # classgen
-generate prototype classes from objects or arrays
+generate prototype classes from json arrays
 
 ## install
 ```
