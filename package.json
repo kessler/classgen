@@ -1,8 +1,10 @@
 {
   "name": "classgen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generate prototype class code from json arrays",
-  "keywords": [ "code generation" ],
+  "keywords": [
+    "code generation"
+  ],
   "main": "index.js",
   "bin": {
     "classgen": "index.js"
