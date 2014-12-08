@@ -1,19 +1,19 @@
 {
   "name": "classgen",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",  
+  "description": "generate prototype class code from json arrays",
+  "keywords": [ "code generation" ],
+  "main": "index.js",
+  "bin": {
+    "classgen": "index.js"
+  },
   "scripts": {
     "test": "mocha -R spec"
   },
-  "dependencies": {},
-  
-    "private": true, 
-    
-   
-    "author": "Yaniv Kessler", 
-  
-  
+  "dependencies": {
+    "minimist": "^1.1.0"
+  },
+  "author": "Yaniv Kessler",
   "bugs": {
     "url": "https://github.com/kessler/classgen/issues"
   },
@@ -22,6 +22,5 @@
     "url": "https://github.com/kessler/classgen"
   },
   "homepage": "https://github.com/kessler/classgen",
-    
   "license": "MIT"
 }
